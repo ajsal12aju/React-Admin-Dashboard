@@ -4,7 +4,7 @@ import "./new.scss"
 function New() {
   return (
     <div>
-      new
+      neeewwww
     </div>
   )
 }
