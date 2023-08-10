@@ -2,7 +2,7 @@ import React from 'react'
 import "./list.scss"
 function List() {
   return (
-    <div>List</div>
+    <div>Lisiiiiit</div>
   )
 }
 

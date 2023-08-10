@@ -4,7 +4,7 @@ import "./single.scss"
 function Single() {
   return (
     <div>
-      hello
+      hellooii
     </div>
   )
 }
