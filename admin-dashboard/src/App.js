@@ -20,6 +20,11 @@ function App() {
             <Route path=":userId" element={<Single/>}></Route>
             <Route path="new" element={<New/>}></Route>
           </Route>
+          <Route path="products">
+            <Route index element={<List/>}/>
+            <Route path=":productId" element={<Single/>}></Route>
+            <Route path="new" element={<New/>}></Route>
+          </Route>
         </Routes>
       </BrowserRouter>
     </div>
