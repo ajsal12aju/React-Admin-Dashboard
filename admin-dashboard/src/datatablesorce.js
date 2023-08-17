@@ -2,7 +2,7 @@ import Image from "../src/images/pro-removebg-preview (1).png"
 
 export const userColumns = [ { field: 'id', headerName: 'ID', width: 70 },
     {
-        feild:"user", headerName:"User", width:230, renderCell:(params)=>{
+        field:"user", headerName:"User", width:230, renderCell:(params)=>{
             return (
                 <div className="cellWithImg">
                     <img className="cellImg" src={params.row.img} alt="" />
@@ -70,6 +70,46 @@ export const userRows = [
     },
     {
         id:6,
+        username:"vishnu",
+        img:Image,
+        status:"passive",
+        email:"v@gmail.com",
+        age:24
+    },
+    {
+        id:7,
+        username:"vishnu",
+        img:Image,
+        status:"passive",
+        email:"v@gmail.com",
+        age:24
+    },
+    {
+        id:8,
+        username:"vishnu",
+        img:Image,
+        status:"passive",
+        email:"v@gmail.com",
+        age:24
+    },
+    {
+        id:9,
+        username:"vishnu",
+        img:Image,
+        status:"passive",
+        email:"v@gmail.com",
+        age:24
+    },
+    {
+        id:10,
+        username:"vishnu",
+        img:Image,
+        status:"passive",
+        email:"v@gmail.com",
+        age:24
+    },
+    {
+        id:11,
         username:"vishnu",
         img:Image,
         status:"passive",

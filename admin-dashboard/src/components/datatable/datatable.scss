@@ -1,6 +1,8 @@
 .datatable{
     padding: 20px;
-    height: 500px;
+    height: 640px;
+    width: 75%;
+    align-items: center;
 
     .cellWithImg{
         display: flex;
@@ -32,6 +34,27 @@
             background-color: rgba(0,128,0,0.05);
             color: crimson;
             
+        }
+    }
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .viewButton{
+            padding: 2px 7px;
+            border-radius: 5px;
+            color: darkblue;
+            border : 1px dotted rgba(0,0,139,0.596);
+            cursor: pointer;
+            
+        }
+        .deleteAction{
+            padding: 2px 7px;
+            border-radius: 5px;
+            color: crimson;
+            cursor: pointer;
+            border : 1px dotted rgba(177, 81, 67, 0.596)
         }
     }
 }
