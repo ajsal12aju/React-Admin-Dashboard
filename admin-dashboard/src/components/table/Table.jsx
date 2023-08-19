@@ -76,7 +76,7 @@ function TableComponent() {
               key={row.id}
               // sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
-              <TableCell>
+              <TableCell className='tableCell'>
                 {row.id}
               </TableCell>
               <TableCell  className='tableCell'><div className="cellWrapper">
@@ -88,13 +88,11 @@ function TableComponent() {
               <TableCell  className='tableCell'>{row.amount}</TableCell>
               <TableCell  className='tableCell'>{row.method}</TableCell>
               <TableCell  className='tableCell'><span className={`status ${row.status}`}>{row.status}</span></TableCell>
-
             </TableRow>
           ))}
         </TableBody>
       </Table>
     </TableContainer>
-   
   )
 }
 
