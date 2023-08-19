@@ -3,11 +3,48 @@
     height: 640px;
     width: 75%;
     align-items: center;
-
-    .cellWithImg{
+    .datatableTitle{
+        width: 100%;
+        font-style: 24px;
+        color: gray;
+        margin-bottom: 10px;
         display: flex;
         align-items: center;
 
+        justify-content: space-between;
+
+        .link{
+           text-decoration: none;
+           color: green;
+           font-size: 16px;
+           font-weight: 400;
+           border: 1px solid green;
+           padding: 5px;
+           border-radius: 5px;
+           cursor: pointer;
+        }
+   }
+    .cellWithImg{
+        display: flex;
+        align-items: center;
+        
+        .datatable{
+             width: 100%;
+             font-style: 24px;
+             color: gray;
+             margin-bottom: 10px;
+             display: flex;
+             align-items: center;
+
+             justify-content: space-between;
+
+             .link{
+                text-decoration: none;
+                color: green;
+                font-size: 16px;
+                font-weight: 400;
+             }
+        }
         .cellImg{
             width: 32px;
             height: 32px;
